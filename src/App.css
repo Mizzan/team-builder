@@ -1,0 +1,33 @@
+.container-fluid {
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.player-add {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+h5 {
+  text-align: center;
+  height: 10vh;
+  padding: 20px;
+  margin-top: 20px;
+}

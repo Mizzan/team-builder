@@ -1,0 +1,12 @@
+.player-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+}
+
+span {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 5px;
+  margin: 2px 5px;
+}

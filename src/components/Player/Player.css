@@ -1,0 +1,56 @@
+.player-card {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-size: cover;
+  background-position: bottom top;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: rgb(167, 208, 250);
+}
+
+.player-card img {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.primary-btn {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.primary-btn:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 8px 10px 12px;
+}
+
+.primary-btn-effect {
+  background-image: linear-gradient(
+    to right,
+    #2bc0e4 0%,
+    #eaecc6 51%,
+    #2bc0e4 100%
+  );
+}
+
+.primary-btn-effect:hover {
+  background-position: right center;
+}
